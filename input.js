@@ -12,7 +12,7 @@ const setupInput = (conn) => {
     if ( data === '\u0003' ) {
       process.exit();
     }
-    //connection.write("Say: hello Leshan the Genious")
+    connection.write("Say: Hello Amazing people")
      if (data === 'w') {
         //console.log("Move: up")
          connection.write("Move: up");
